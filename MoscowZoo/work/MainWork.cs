@@ -197,14 +197,10 @@ public class MainWork
         _outputService.Output(_thingService.Add(type, param));
     }
 
-    /// <summary>
-    /// Ждёт пока пользователь нажмёт любую клавишу и очищает консоль.
-    /// </summary>
+
     private void WaitForContinue()
     {
-        _outputService.Output("Нажмите любую клавишу для продолжения...");
-        Console.ReadKey(true);
-        _outputService.Clear();
+        _inputService.Wait("Нажмите любую клавишу для продолжения...");
     }
 }
 

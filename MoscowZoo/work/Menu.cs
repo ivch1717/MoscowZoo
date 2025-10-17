@@ -6,6 +6,7 @@ public class Menu : IMenu
 {
     public int ReadingMenu(string[] data)
     {
+        Console.Clear();
         var selection = AnsiConsole.Prompt(
             new SelectionPrompt<string>()
                 .Title("Выберите пункт меню:")

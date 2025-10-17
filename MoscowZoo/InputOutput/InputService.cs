@@ -24,4 +24,10 @@ public class InputService: IInputService
         }
         return x;
     }
+
+    public void Wait(string message)
+    {
+        Console.WriteLine(message);
+        Console.ReadKey(true);
+    }
 }

@@ -6,9 +6,4 @@ public class OutputService: IOutputService
     {
         Console.WriteLine(message);
     }
-
-    public void Clear()
-    {
-        Console.Clear();
-    }
 }
