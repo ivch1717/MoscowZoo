@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoscowZoo", "MoscowZoo\MoscowZoo.csproj", "{D973EC20-B0E8-4774-A1EF-EAD0D20B8C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoscowZoo.Tests", "MoscowZoo.Tests\MoscowZoo.Tests.csproj", "{4E66AE67-BE53-41AE-88E8-C83A45D737F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D973EC20-B0E8-4774-A1EF-EAD0D20B8C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D973EC20-B0E8-4774-A1EF-EAD0D20B8C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D973EC20-B0E8-4774-A1EF-EAD0D20B8C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D973EC20-B0E8-4774-A1EF-EAD0D20B8C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E66AE67-BE53-41AE-88E8-C83A45D737F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E66AE67-BE53-41AE-88E8-C83A45D737F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E66AE67-BE53-41AE-88E8-C83A45D737F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E66AE67-BE53-41AE-88E8-C83A45D737F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
